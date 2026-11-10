@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <main className="pet-window" data-tauri-drag-region>
+    <main className="pet-window" data-tauri-drag-region="deep">
       <Pet status={status} />
     </main>
   );
